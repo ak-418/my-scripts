@@ -1,0 +1,4 @@
+osascript -e 'tell application "Terminal" to activate' -e 'tell application "System Events" to tell process "Terminal" to keystroke "t" using command down' -e 'tell application "Terminal" to do script "cd repos/yourstory-api; npm run dev" in selected tab of the front window';
+osascript -e 'tell application "System Events" to tell process "Terminal" to keystroke "t" using command down' -e 'tell application "Terminal" to do script "cd repos/my-account; npm run dev" in selected tab of the front window';
+osascript -e 'tell application "System Events" to tell process "Terminal" to keystroke "t" using command down' -e 'tell application "Terminal" to do script "cd repos/pwa-ys-com; yarn start" in selected tab of the front window';
+osascript -e 'tell application "System Events" to tell process "Terminal" to keystroke "t" using command down' -e 'tell application "Terminal" to do script "cd repos/creator-studio; npm start" in selected tab of the front window';
